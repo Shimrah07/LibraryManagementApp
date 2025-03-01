@@ -8,6 +8,11 @@ const BookCard = () => {
   return (
     <div>
       book card
+
+
+      <div>
+        
+      </div>
     </div>
   )
 }

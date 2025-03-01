@@ -4,5 +4,5 @@ import { bookReducer } from "./reducers/bookReducer";
 import { thunk } from "redux-thunk";
 import { applyMiddleware } from "redux";
 
-const rootReducer = combineReducers({ auth: authReducer, books: bookReducer });
+const rootReducer = combineReducers({ books: bookReducer});
 export const store = createStore(rootReducer, applyMiddleware(thunk));
